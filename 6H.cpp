@@ -98,3 +98,10 @@ int32_t main() {
     }
     for (int x = 2; x < maxn; x++) {
         if (min_prime[x] == x && prime_factors.find(x) == prime_factors.end()) { 
+            cout << x;
+            return 0;
+        }
+    }
+    cout << -1; 
+    return 0;
+}
